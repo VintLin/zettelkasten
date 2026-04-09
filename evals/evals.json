@@ -1,0 +1,23 @@
+{
+    "skill_name": "zettelkasten",
+    "evals": [
+      {
+        "id": 1,
+        "prompt": "把这段关于 atomic notes 的文章摘录转换成永久笔记，并说明应该如何与我已有的两条笔记关联。",
+        "expected_output": "Should produce at least one permanent note with title, summary, body, links, references, and a justified link plan.",
+        "files": []
+      },
+      {
+        "id": 2,
+        "prompt": "这是我一篇文章的阅读笔记，内容比较散。请先聚类，再决定应该拆成几条永久笔记，并给出 structure note 草稿。",
+        "expected_output": "Should cluster material before drafting, split notes only when justified, and produce a structure note recommendation.",
+        "files": []
+      },
+      {
+        "id": 3,
+        "prompt": "这是一次会议记录。请只提炼可长期复用的原则、流程或判断，忽略一次性事务，并输出 Markdown 笔记包。",
+        "expected_output": "Should filter transient material, preserve reusable knowledge, and output Markdown notes plus ambiguity markers.",
+        "files": []
+      }
+    ]
+  }
