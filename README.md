@@ -2,19 +2,18 @@
 
 面向个人知识库的 Codex skills 集合，用于把原始资料处理成可复用、可链接、可持续演化的 Zettelkasten 笔记。
 
-这个仓库不再维护单一的根级 `SKILL.md`，而是按 Codex 项目约定把技能放在 `.agents/skills/` 下。每个技能负责一个明确阶段，避免把资料分析、正式成文、链接修复和结构复审混在同一次操作里。
+这个仓库不再维护单一的根级 `SKILL.md`，而是把技能按目录放在根目录 `skills/` 下。每个技能负责一个明确阶段，避免把资料分析、正式成文、链接修复和结构复审混在同一次操作里。
 
 ## 目录结构
 
 ```text
-.agents/
-  skills/
-    source-analysis/
-    wiki-generation/
-    wiki-links/
-    wiki-rank/
-    wiki-review/
-    wiki-writes/
+skills/
+  source-analysis/
+  wiki-generation/
+  wiki-links/
+  wiki-rank/
+  wiki-review/
+  wiki-writes/
 ```
 
 ## Skills
@@ -84,10 +83,10 @@
 
 ## 使用方式
 
-在支持 Codex 项目 skills 的环境中克隆本仓库，或把 `.agents/skills/` 复制到目标知识库根目录。
+在支持 Codex 项目 skills 的环境中克隆本仓库，或把 `skills/` 复制到目标知识库根目录。
 
 ```bash
 git clone https://github.com/VintLin/zettelkasten.git
 ```
 
-如果要在现有 Obsidian 知识库中使用，推荐只同步 `.agents/skills/`，并让 `raw/`、`.cache/`、`wiki/`、`outputs/` 和 `archive/` 保持在知识库项目内。
+如果要在现有 Obsidian 知识库中使用，推荐只同步 `skills/`，并让 `raw/`、`.cache/`、`wiki/`、`outputs/` 和 `archive/` 保持在知识库项目内。

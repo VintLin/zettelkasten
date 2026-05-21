@@ -48,39 +48,39 @@ It owns the repository's deterministic link audit and repair workflow.
 Audit the whole wiki:
 
 ```bash
-python3 .agents/skills/wiki-links/scripts/audit_argument_links.py
+python3 skills/wiki-links/scripts/audit_argument_links.py
 ```
 
 Audit selected argument notes:
 
 ```bash
-python3 .agents/skills/wiki-links/scripts/audit_argument_links.py \
+python3 skills/wiki-links/scripts/audit_argument_links.py \
   wiki/argument-notes/20260414-如何构建长期有效的学习系统.md
 ```
 
 Sync argument-derived `supports/next`:
 
 ```bash
-python3 .agents/skills/wiki-links/scripts/sync_argument_links.py --apply
+python3 skills/wiki-links/scripts/sync_argument_links.py --apply
 ```
 
 Sync selected argument notes and prune disallowed residue:
 
 ```bash
-python3 .agents/skills/wiki-links/scripts/sync_argument_links.py --apply --prune-disallowed \
+python3 skills/wiki-links/scripts/sync_argument_links.py --apply --prune-disallowed \
   wiki/argument-notes/20260414-如何构建长期有效的学习系统.md
 ```
 
 Clean all permanent-note `Links` blocks without changing chain order:
 
 ```bash
-python3 .agents/skills/wiki-links/scripts/clean_permanent_links.py --apply
+python3 skills/wiki-links/scripts/clean_permanent_links.py --apply
 ```
 
 Normalize permanent-note and reference-note structural residue:
 
 ```bash
-python3 .agents/skills/wiki-links/scripts/normalize_permanent_references.py --apply
+python3 skills/wiki-links/scripts/normalize_permanent_references.py --apply
 ```
 
 ## Hard Rules
