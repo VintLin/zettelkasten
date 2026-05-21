@@ -1,0 +1,4 @@
+interface:
+  display_name: "Source Analysis"
+  short_description: "Analyze one source into a .cache handoff document"
+  default_prompt: "Analyze one raw source and write a structured .cache handoff document for downstream wiki generation."

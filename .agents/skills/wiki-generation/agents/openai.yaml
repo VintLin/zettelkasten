@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wiki Generation"
+  short_description: "Generate wiki notes from .cache analysis documents"
+  default_prompt: "Read one .cache analysis document and update the permanent, reference, argument, and structure note layers."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wiki Links"
+  short_description: "Audit and repair wiki links, supports/next chains, and link-layer rules"
+  default_prompt: "Audit or repair the repository's wikilinks and argument-derived link structure using the shared wiki link maintenance scripts."

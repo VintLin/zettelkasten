@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wiki Review"
+  short_description: "Review unresolved wiki-generation decisions"
+  default_prompt: "Read wiki-generation review blocks and convert them into concrete next actions."

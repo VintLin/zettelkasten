@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wiki Rank"
+  short_description: "Reduce one concept before setting theme boundaries"
+  default_prompt: "Reduce one theme or domain concept to its irreducible generators, then infer its natural boundary and likely argument range."
